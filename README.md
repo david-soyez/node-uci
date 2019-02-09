@@ -1,6 +1,10 @@
 # node-uci
 Build and run chess UCI engines written in NodeJs
 
+## Prerequisites
+Node >= 8.0
+
+
 ## Install
 ```
 npm install
@@ -8,7 +12,7 @@ npm install
 
 ## Run 
 ```
-node index.js example/engine.js
+node index.js example/index.js
 ```
 
 ## Build for browser usage
