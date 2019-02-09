@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    </head>
+    <body>
+        Open inspector and type:
+        <pre>
+          window.engine.process.stdout.on('data',function(data) {
+            console.log(data);
+          });
+        </pre>
+        then:
+        <pre>
+          window.engine.process.stdin.push("uci\n");
+          window.engine.process.stdin.push("isready\n");
+          window.engine.process.stdin.push("go\n");
+        </pre>
+        <script type="text/javascript" src="engine.js"></script>
+    </body>
+</html>
