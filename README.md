@@ -5,4 +5,4 @@ Build and run chess UCI engines written in NodeJs
 npm install
 
 ## Run 
-node index.js examples/engine1.js
+node index.js example/engine.js

@@ -3,7 +3,7 @@ const path = require('path');
 
 const {NodeVM,VMScript} = require('vm2');
 
-const {Board, BoardSettings, State, Square, Move} = require('@chesscode/board');
+const Board = require('@chesscode/board');
 
 
 var engineFilename = process.argv[2];
@@ -40,12 +40,7 @@ const vm1 = new NodeVM({
         root: enginePath,
         builtin: ['readline'],
         mock: {
-            //Chess: Chess,
             Board: Board,
-            BoardSettings: BoardSettings,
-            Move: Move,
-            Square: Square,
-            State: State,
             readline:readline 
         }
     }
