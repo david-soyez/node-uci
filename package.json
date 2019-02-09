@@ -1,0 +1,23 @@
+{
+  "name": "node-uci",
+  "version": "1.0.0",
+  "description": "Build and run chess UCI engines written in NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-soyez/node-uci.git"
+  },
+  "author": "David Soyez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-soyez/node-uci/issues"
+  },
+  "homepage": "https://github.com/david-soyez/node-uci#readme",
+  "dependencies": {
+    "@chesscode/board": "^1.0.0",
+    "vm2": "^3.6.10"
+  }
+}
