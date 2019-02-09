@@ -1,5 +1,5 @@
 # node-uci
-Build and run chess UCI engines written in NodeJs
+Write UCI chess engines in NodeJs and run them inside a terminal or browser.
 
 ## Prerequisites
 Node >= 8.0
