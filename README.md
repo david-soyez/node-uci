@@ -13,6 +13,11 @@ npm install @chesscode/node-uci
 
 ## Run 
 ```
+node node_modules/\@chesscode/node-uci/index.js your_script.js
+```
+
+## Example 
+```
 node node_modules/\@chesscode/node-uci/index.js node_modules/\@chesscode/node-uci/example/index.js
 ```
 
