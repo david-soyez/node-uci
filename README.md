@@ -6,15 +6,14 @@ Node >= 8.0
 
 
 ## Install
-Download or checkout the repo and run:
-
 ```
-npm install
+npm init
+npm install @chesscode/node-uci
 ```
 
 ## Run 
 ```
-node index.js example/index.js
+node node_modules/\@chesscode/node-uci/index.js node_modules/\@chesscode/node-uci/example/index.js
 ```
 
 ## Build for browser usage
