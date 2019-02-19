@@ -1,10 +1,10 @@
 {
-  "name": "node-uci",
+  "name": "@chesscode/node-uci",
   "version": "1.0.0",
   "description": "Build and run chess UCI engines written in NodeJs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js example/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,15 @@
   "bugs": {
     "url": "https://github.com/david-soyez/node-uci/issues"
   },
+"keywords": [
+    "chess",
+    "uci",
+    "node"
+  ],
   "homepage": "https://github.com/david-soyez/node-uci#readme",
+"bugs": {
+    "url": "https://github.com/david-soyez/node-uci/issues"
+  },
   "dependencies": {
     "@chesscode/board": "^1.0.0",
     "browserify": "^14.5.0",
