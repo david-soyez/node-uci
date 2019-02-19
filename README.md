@@ -6,6 +6,8 @@ Node >= 8.0
 
 
 ## Install
+Download or checkout the repo and run:
+
 ```
 npm install
 ```
